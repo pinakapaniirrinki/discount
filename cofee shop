@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int x,p,temp=0,sum=0;
+if(x>=1 && x<=1000){
+if(p>=1 && p<=100){
+while(x!=0){
+temp=x;
+sum=sum+x;
+x=temp-(x*p/100);
+}
+}
+}
+printf("%d",sum);
+}
